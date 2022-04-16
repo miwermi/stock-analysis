@@ -27,3 +27,4 @@ TERP	151434700	-0.049957674
 VSLR	136539100	-0.035443064
 
 Formatted with green light text and black background :)
+Changed to assignment colors :(
