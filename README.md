@@ -6,7 +6,8 @@
 
 Intially this project was about client Steve, who was evaluating green energy stocks for his parents. The initial analysis of the DQ stock they had chosen indicated that it had lost value and wasn't the best investment. Following that discovery, Steve asked for help to design a program that could look at multiple stocks simultaneously and compare changes in their stock values in a sweet little table layout. 
 
-![Steve's Stock](resources/StevesStockAnalyis.png)
+![Steve's Stock](resources/SteveStockAnalysis.png)
+
 Pictured: Steve's Stock Analysis 
 
 ### Purpose
@@ -21,18 +22,22 @@ The first method used was to
 
 
 ![Initial timing, 2018 data](resources/M2_stockanalysis_2018.png)
+
 Figure 1: Initial timing, 2018 Green Stock Analysis 
 
 ![Initial timing, 2017 data](resources/M2_stockanalysis_2017.png)
+
 Figure 2: Initial timing, 2017 Green Stock Analysis 
 
 The figures above display the results and timing of our intial program coding.
 Below are the improved timings with our re-factored code:
 
 ![FINAL timing, 2018 data](resources/VBA_Challenge_2018.png)
+
 Figure 3: Initial timing, 2018 Green Stock Analysis 
 
 ![FINAL timing, 2017 data](resources/VBA_Challenge_2017.png)
+
 Figure 4: Initial timing, 2017 Green Stock Analysis 
 
 
