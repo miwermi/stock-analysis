@@ -31,6 +31,8 @@ Figure 2: Initial timing, 2017 Green Stock Analysis
 
 The figures above display the results and timing of our intial program coding. You can see that for the 2018 data, the timing for calculating the results is indicated as 66915.74 seconds and for the 2017 run, the timing is 66889.4 seconds.
 
+### Refactored
+
 Below are the improved timings with our re-factored code. In this case the timings returned are 0.78125 for 2018 and .8046875 for 2017.
 
 ![FINAL timing, 2018 data](resources/VBA_Challenge_2018.png)
