@@ -28,3 +28,5 @@ VSLR	136539100	-0.035443064
 
 Formatted with green light text and black background :)
 Changed to assignment colors :(
+
+Buttons added to initiate macros
