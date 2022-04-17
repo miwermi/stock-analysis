@@ -16,9 +16,9 @@ When writing a program to compare multiple stocks and their total value increase
 
 As the data increases, saving time on the computation becomes useful - and interesting. For this final re-write of the program, we are testing the speed of two different code methods of finding the begining and ending price comparisons and totaling them to see which is more efficient.
 
-## Analysis and Challenges
+## Results
 
-The first method used was to 
+Below are four images, the first show the results from the original program, and the last two are the "refactored" images:
 
 
 ![Initial timing, 2018 data](resources/M2_stockanalysis_2018.png)
@@ -42,8 +42,8 @@ Figure 3: Initial timing, 2018 Green Stock Analysis
 Figure 4: Initial timing, 2017 Green Stock Analysis 
 
 ---
-## Results
-We have successfully improved our program. By adding one more array, "tickerIndex", we were able to have the program loop less, improving efficiency and saving valuable time. 
+## Summary
+We have successfully improved our program. By adding one more array, "tickerIndex", we were able to have the program loop less, improving efficiency and saving valuable time. The refactored version of our project has an advantage over our previous version because ultimately, it can handle more calculations in a fraction of the time it took before.
 
 One thing to note though, while the refactored code was definitely faster, the timings that were returned seem a bit off (as the difference was mere seconds and not hours as the timings seem to indicate). 
 
