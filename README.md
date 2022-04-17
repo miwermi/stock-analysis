@@ -1,34 +1,43 @@
-This folder contains the Module 2 work for Bootcamp covering VBA/macros and stock analysis
+                                                                                           Michelle Werner (4/17/2022)
+# Stock Analysis: VBA Code Refactoring & Measuring Performance 
+---
 
-# stock-analysis
+## Overview of Project
 
-Just had a ticker box looping for each cell in a 3013 row table...  
-In VBA, you can stop your macro execution manually with Ctrl+Break ! :)  (ESC didn't cut it)
+Intially this project was about client Steve, who was evaluating green energy stocks for his parents. The initial analysis of the DQ stock they had chosen indicated that it had lost value and wasn't the best investment. Following that discovery, Steve asked for help to design a program that could look at multiple stocks simultaneously and compare changes in their stock values in a sweet little table layout. 
 
-Year	Total Daily Volume	Return
-2018	107873900	          -0.626018859
-:(
+![Steve's Stock](resources/SteveStockAnalyis.png)
+Pictured: Steve's Stock Analysis 
 
-All tickers running:
-All Stocks (2018)		
-		
-Ticker	TDV	  Return
-AY	83079900	-0.072847635
-CSIQ	200879900	-0.163360521
-DQ	107873900	-0.626018882
-ENPH	607473500	0.819230855
-FSLR	478113900	-0.39713192
-HASI	104340600	-0.206580624
-JKS	158309000	-0.605347157
-RUN	502757100	0.839527071
-SEDG	237212300	-0.077529587
-SPWR	538024300	-0.445930928
-TERP	151434700	-0.049957674
-VSLR	136539100	-0.035443064
+### Purpose
 
-Formatted with green light text and black background :)
-Changed to assignment colors :(
+When writing a program to compare multiple stocks and their total value increases and decreases, and thinking of how the program could "scale" even further in the future, a few things seemed relevant: visual clarity, variety and timing.Adding buttons and visual formatting to the program made it more easily understood at a glance, and the program was improved with the ability to access multiple spreadsheets from multiple sock years. The final refactoring of the program involves invesitgate timing.
 
-Buttons added to initiate macros
+As the data increases, saving time on the computation becomes useful - and interesting. For this final re-write of the program, we are testing the speed of two different code methods of finding the begining and ending price comparisons and totaling them to see which is more efficient.
 
-Timer added for program assessment
+## Analysis and Challenges
+
+The first method used was to 
+
+
+![Initial timing, 2018 data](resources/M2_stockanalysis_2018.png)
+Figure 1: Initial timing, 2018 Green Stock Analysis 
+
+![Initial timing, 2017 data](resources/M2_stockanalysis_2017.png)
+Figure 2: Initial timing, 2017 Green Stock Analysis 
+
+The figures above display the results and timing of our intial program coding.
+Below are the improved timings with our re-factored code:
+
+![FINAL timing, 2018 data](resources/VBA_Challenge_2018.png)
+Figure 3: Initial timing, 2018 Green Stock Analysis 
+
+![FINAL timing, 2017 data](resources/VBA_Challenge_2017.png)
+Figure 4: Initial timing, 2017 Green Stock Analysis 
+
+
+
+
+
+---
+## Results
