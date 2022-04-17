@@ -6,7 +6,7 @@
 
 Intially this project was about client Steve, who was evaluating green energy stocks for his parents. The initial analysis of the DQ stock they had chosen indicated that it had lost value and wasn't the best investment. Following that discovery, Steve asked for help to design a program that could look at multiple stocks simultaneously and compare changes in their stock values in a sweet little table layout. 
 
-![Steve's Stock](resources/SteveStockAnalyis.png)
+![Steve's Stock](resources/StevesStockAnalyis.png)
 Pictured: Steve's Stock Analysis 
 
 ### Purpose
