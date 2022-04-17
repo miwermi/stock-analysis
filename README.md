@@ -30,3 +30,5 @@ Formatted with green light text and black background :)
 Changed to assignment colors :(
 
 Buttons added to initiate macros
+
+Timer added for program assessment
