@@ -17,7 +17,7 @@ When writing a program to compare multiple stocks and their total value increase
 As the data increases, saving time on the computation becomes useful - and interesting. For this final re-write of the program, we are going to see if we can the speed of two different code methods of finding the begining and ending price comparisons and totaling them to see which is more efficient. This type of adjustment to our original code is referred to as "refactoring". 
 
 For more on refactoring visit: https://www.bmc.com/blogs/code-refactoring-explained/
-
+---
 ## Results
 
 Below are four images, the first show the results from the original program, and the last two are the "refactored" images:
@@ -35,7 +35,7 @@ The figures above display the results and timing of our intial program coding. Y
 
 ### Refactored
 
-Below are the improved timings with our re-factored code. In this case the timings returned are 0.78125 for 2018 and .8046875 for 2017.
+Below are the improved timings with our re-factored code. In this case the timings returned are 0.78125 for 2018 and .8046875 for 2017, along with a view of the refactored code.
 
 ![FINAL timing, 2018 data](resources/VBA_Challenge_2018.png)
 
@@ -45,7 +45,14 @@ Figure 3: FINAL timing, 2018 Green Stock Analysis Refactored
 
 Figure 4: FINAL timing, 2017 Green Stock Analysis Refactored
 
+
+![Refactored VBA code](resources/code.png)
+
+Figure 5: Refactored VBA Challenge Code
+
+
 ---
+## Summary
 In general, refactoring code is the practice of cleaning up code. A programmer may write a program with code that is loaded with redundancy (or "dirty") because it is more simple to test and debug or becuase they need to quickly "get er done".  But cleaner, more succinct code is highly valued by anyone who may need to edit it in the future. So it is always a "best practice" to consider refactoring as the cleaner the code, the easier it is to maintain and to add future features to. 
 
 "The act of refactoring – changing tiny pieces of code with no front-end purpose – may seem unimportant when compared to higher priority tasks. But the cumulative effect from such changes is significant and can lead to a better-functioning team and approach to programming."  (BMC blogs,  Stephen Watts &Chrissy Kidd, 2018, https://www.bmc.com/blogs/code-refactoring-explained/)
