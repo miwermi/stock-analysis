@@ -14,7 +14,9 @@ Pictured: Steve's Stock Analysis
 
 When writing a program to compare multiple stocks and their total value increases and decreases, and thinking of how the program could "scale" even further in the future, a few things seemed relevant: visual clarity, variety and timing. Adding buttons and visual formatting to the program made it more easily understood at a glance, and the program was improved with the ability to access differentspreadsheets from multiple stock years. The final refactoring of the program involves invesitgating timing.
 
-As the data increases, saving time on the computation becomes useful - and interesting. For this final re-write of the program, we are going to see if we can the speed of two different code methods of finding the begining and ending price comparisons and totaling them to see which is more efficient.
+As the data increases, saving time on the computation becomes useful - and interesting. For this final re-write of the program, we are going to see if we can the speed of two different code methods of finding the begining and ending price comparisons and totaling them to see which is more efficient. This type of adjustment to our original code is referred to as "refactoring". 
+
+For more on refactoring visit: https://www.bmc.com/blogs/code-refactoring-explained/
 
 ## Results
 
@@ -44,9 +46,12 @@ Figure 3: FINAL timing, 2018 Green Stock Analysis Refactored
 Figure 4: FINAL timing, 2017 Green Stock Analysis Refactored
 
 ---
-## Summary
-We have successfully improved our program. By adding one more array, "tickerIndex", we were able to have the program loop less, improving efficiency and saving valuable time. The refactored version of our project has an advantage over our previous version because ultimately, it can handle more calculations in a fraction of the time it took before.
+In general, refactoring code is the practice of cleaning up code. A programmer may write a program with code that is loaded with redundancy (or "dirty") because it is more simple to test and debug or becuase they need to quickly "get er done".  But cleaner, more succinct code is highly valued by anyone who may need to edit it in the future. So it is always a "best practice" to consider refactoring as the cleaner the code, the easier it is to maintain and to add future features to. 
 
-One thing to note though, while the refactored code was definitely faster, the timings that were returned seem a bit off (as the difference was mere seconds and not hours as the timings seem to indicate). 
+"The act of refactoring – changing tiny pieces of code with no front-end purpose – may seem unimportant when compared to higher priority tasks. But the cumulative effect from such changes is significant and can lead to a better-functioning team and approach to programming."  (BMC blogs,  Stephen Watts &Chrissy Kidd, 2018, https://www.bmc.com/blogs/code-refactoring-explained/)
+
+For our VBA challenge, we have successfully improved our program. Refactoring has allowed us to have cleaner code with more streamlined functionality, but it has also sped up calculaton timing. By adding one more array, "tickerIndex", we were able to have the program loop less, improving efficiency and saving valuable time. The refactored version of our project has an advantage over our previous version because ultimately, it can handle more calculations in a fraction of the time it took before.
+
+One thing to note though, while the refactored code in our program is definitely faster, the timings that were returned seem a bit off (as the difference was mere seconds and not hours as the timings seem to indicate). 
 
 Figuring that out could be our next challenge!
