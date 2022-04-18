@@ -37,11 +37,11 @@ Below are the improved timings with our re-factored code. In this case the timin
 
 ![FINAL timing, 2018 data](resources/VBA_Challenge_2018.png)
 
-Figure 3: Initial timing, 2018 Green Stock Analysis 
+Figure 3: FINAL timing, 2018 Green Stock Analysis Refactored
 
 ![FINAL timing, 2017 data](resources/VBA_Challenge_2017.png)
 
-Figure 4: Initial timing, 2017 Green Stock Analysis 
+Figure 4: FINAL timing, 2017 Green Stock Analysis Refactored
 
 ---
 ## Summary
