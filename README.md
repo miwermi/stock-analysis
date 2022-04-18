@@ -14,7 +14,7 @@ Pictured: Steve's Stock Analysis
 
 When writing a program to compare multiple stocks and their total value increases and decreases, and thinking of how the program could "scale" even further in the future, a few things seemed relevant: visual clarity, variety and timing. Adding buttons and visual formatting to the program made it more easily understood at a glance, and the program was improved with the ability to access differentspreadsheets from multiple stock years. The final refactoring of the program involves invesitgating timing.
 
-As the data increases, saving time on the computation becomes useful - and interesting. For this final re-write of the program, we are testing the speed of two different code methods of finding the begining and ending price comparisons and totaling them to see which is more efficient.
+As the data increases, saving time on the computation becomes useful - and interesting. For this final re-write of the program, we are going to see if we can the speed of two different code methods of finding the begining and ending price comparisons and totaling them to see which is more efficient.
 
 ## Results
 
