@@ -20,7 +20,7 @@ For more on refactoring visit: https://www.bmc.com/blogs/code-refactoring-explai
 ---
 ## Results
 
-Below are four images, the first show the results from the original program, and the last two are the "refactored" images:
+Below are four images, the first show the results from the original program, and the last two are the "refactored" program images:
 
 
 ![Initial timing, 2018 data](resources/M2_stockanalysis_2018.png)
