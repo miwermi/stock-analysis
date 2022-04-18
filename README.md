@@ -12,7 +12,7 @@ Pictured: Steve's Stock Analysis
 
 ### Purpose
 
-When writing a program to compare multiple stocks and their total value increases and decreases, and thinking of how the program could "scale" even further in the future, a few things seemed relevant: visual clarity, variety and timing. Adding buttons and visual formatting to the program made it more easily understood at a glance, and the program was improved with the ability to access differentspreadsheets from multiple stock years. The final refactoring of the program involves invesitgating timing.
+When writing a program to compare multiple stocks and their total value increases and decreases, and thinking of how the program might be need to "scale" up even further in the future, a few things seemed relevant: visual clarity, variety and timing. Adding buttons and visual formatting to the program made it more easily understood at a glance, and the program was improved with the ability to access differentspreadsheets from multiple stock years. The final refactoring of the program involves invesitgating timing.
 
 As the data increases, saving time on the computation becomes useful - and interesting. For this final re-write of the program, we are going to see if we can test the speed of two different code methods used to find  and total the begining and ending price comparisons to see which is more efficient. This type of adjustment to our original code is referred to as "refactoring". Our findings and the value of refactoring this VBA code will be discussed further in the Results section below.
 
