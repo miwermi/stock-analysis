@@ -1,34 +1,64 @@
-This folder contains the Module 2 work for Bootcamp covering VBA/macros and stock analysis
+                                                                                           Michelle Werner (4/17/2022)
+# Stock Analysis: VBA Code Refactoring & Measuring Performance 
+---
 
-# stock-analysis
+## Overview of Project
 
-Just had a ticker box looping for each cell in a 3013 row table...  
-In VBA, you can stop your macro execution manually with Ctrl+Break ! :)  (ESC didn't cut it)
+Intially this project was about client Steve, who was evaluating green energy stocks for his parents. The initial analysis of the DQ stock they had chosen indicated that it had lost value and wasn't the best investment. Following that discovery, Steve asked for help to design a program that could look at multiple stocks simultaneously and compare changes in their stock values. 
 
-Year	Total Daily Volume	Return
-2018	107873900	          -0.626018859
-:(
+![Steve's Stock](resources/SteveStockAnalysis.png)
 
-All tickers running:
-All Stocks (2018)		
-		
-Ticker	TDV	  Return
-AY	83079900	-0.072847635
-CSIQ	200879900	-0.163360521
-DQ	107873900	-0.626018882
-ENPH	607473500	0.819230855
-FSLR	478113900	-0.39713192
-HASI	104340600	-0.206580624
-JKS	158309000	-0.605347157
-RUN	502757100	0.839527071
-SEDG	237212300	-0.077529587
-SPWR	538024300	-0.445930928
-TERP	151434700	-0.049957674
-VSLR	136539100	-0.035443064
+Pictured: Steve's Stock Analysis 
 
-Formatted with green light text and black background :)
-Changed to assignment colors :(
+### Purpose
 
-Buttons added to initiate macros
+When writing a program to compare multiple stocks and their total value increases and decreases, and thinking of how the program might be need to "scale" up even further in the future, a few things seemed relevant: visual clarity, variety and timing. Adding buttons and visual formatting to the program made it more easily understood at a glance, and the program was much improved with the added ability to access different spreadsheets from multiple stock years. The final refactoring of the program involves invesitgating timing.
 
-Timer added for program assessment
+As the data comparison demand increases, saving time on the computation becomes useful - and interesting. For this final re-write of the program, we are going to see if we can test the speed of two different code methods used to find  and total the begining and ending price comparisons to see which is more efficient. This type of adjustment to our original code is referred to as "refactoring". Our findings and the value of refactoring this VBA code will be discussed further in the Results section below.
+
+For more on refactoring visit: https://www.bmc.com/blogs/code-refactoring-explained/
+---
+## Results
+
+Below are four images, the first show the results from the original program, and the last two are the "refactored" program images:
+
+
+![Initial timing, 2018 data](resources/M2_stockanalysis_2018.png)
+
+Figure 1: Initial timing, 2018 Green Stock Analysis 
+
+![Initial timing, 2017 data](resources/M2_stockanalysis_2017.png)
+
+Figure 2: Initial timing, 2017 Green Stock Analysis 
+
+The figures above display the results and timing of our intial program coding. You can see that for the 2018 data, the timing for calculating the results is indicated as 66915.74 seconds and for the 2017 run, the timing is 66889.4 seconds.
+
+### Refactored
+
+Below are the improved timings with our re-factored code. In this case the timings returned are 0.78125 for 2018 and .8046875 for 2017, along with a view of the refactored code.
+
+![FINAL timing, 2018 data](resources/VBA_Challenge_2018.png)
+
+Figure 3: FINAL timing, 2018 Green Stock Analysis Refactored
+
+![FINAL timing, 2017 data](resources/VBA_Challenge_2017.png)
+
+Figure 4: FINAL timing, 2017 Green Stock Analysis Refactored
+
+
+![Refactored VBA code](resources/code.png)
+
+Figure 5: Refactored VBA Challenge Code
+
+
+---
+## Summary
+In general, refactoring code is the practice of cleaning up code. A programmer may write a program with code that is loaded with redundancy (or "dirty") because it is more simple to test and debug or becuase they need to quickly "get er done".  But cleaner, more succinct code is highly valued by anyone who may need to edit it in the future. So it is always a "best practice" to consider refactoring as the cleaner the code, the easier it is to maintain and to add future features to. 
+
+"The act of refactoring – changing tiny pieces of code with no front-end purpose – may seem unimportant when compared to higher priority tasks. But the cumulative effect from such changes is significant and can lead to a better-functioning team and approach to programming."  (BMC blogs,  Stephen Watts &Chrissy Kidd, 2018, https://www.bmc.com/blogs/code-refactoring-explained/)
+
+For our VBA challenge, we have successfully improved our program. Refactoring has allowed us to have cleaner code with more streamlined functionality, but it has also sped up calculaton timing. By adding one more array, "tickerIndex", we were able to have the program loop less, improving efficiency and saving valuable time. The refactored version of our project has an advantage over our previous version because ultimately, it can handle more calculations in a fraction of the time it took before.
+
+One thing to note though, while the refactored code in our program is definitely faster, the timings that were returned seem a bit off (as the difference was mere seconds and not hours as the timings seem to indicate). 
+
+Figuring that out could be our next challenge!
