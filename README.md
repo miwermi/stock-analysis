@@ -20,7 +20,7 @@ For more on refactoring visit: https://www.bmc.com/blogs/code-refactoring-explai
 ---
 ## Results
 
-Below are six images, the first two show the results from the original program, the next two are from the first attempt at refactoring in which one array was added, and the last two are the FINAL three-array refactored program images:
+Below are six screenshots of our program results, the first two show the results from the original program, the next two are from the first attempt at refactoring in which one array was added, and the last two are the FINAL three-array refactored program images:
 
 
 ![Initial timing, 2018 data](resources/M2_stockanalysis_2018.png)
@@ -37,11 +37,11 @@ The figures above display the results and timing of our intial program coding. Y
 
 Below are the improved timings with our re-factored code. In this case the timings returned are 0.78125 for 2018 and .8046875 for 2017, along with a view of the refactored code.
 
-![One array timing, 2018 data](resources/VBA_Challenge_2018_one array.png)
+![One array timing, 2018 data](resources/VBA_Challenge_2018_one-array.png)
 
 Figure 3: Improved timing, 2018 Green Stock Analysis Refactored with one new array
 
-![One array timing, 2017 data](resources/VBA_Challenge_2017_one array.png)
+![One array timing, 2017 data](resources/VBA_Challenge_2017_one-array.png)
 
 Figure 4: Improved timing, 2017 Green Stock Analysis Refactored with one new array
 
@@ -50,19 +50,22 @@ Figure 4: Improved timing, 2017 Green Stock Analysis Refactored with one new arr
 
 Figure 5: Refactored VBA Challenge Code with one new array
 
+The code above was a little cleaner/more efficient than our orinal code - as evidenced by the timing differences; in this case the timings returned are 0.78125 for 2018 and .8046875 for 2017. Also viewable is the refactored code. 
+
+Below is the even more improved three-array timings with the FINAL re-factored code. 
 
 ![FINAL three array timing, 2018 data](resources/VBA_Challenge_2018_FINAL.png)
 
-Figure 3: FINAL timing, 2018 Green Stock Analysis Refactored with three arrays
+Figure 6: FINAL timing, 2018 Green Stock Analysis Refactored with three arrays
 
 ![One array timing, 2017 data](resources/VBA_Challenge_2017_FINAL.png)
 
-Figure 4: FINAL timing, 2017 Green Stock Analysis Refactored with three arrays
+Figure 7: FINAL timing, 2017 Green Stock Analysis Refactored with three arrays
 
 
 ![FINAL Refactored VBA code with three arrays](resources/code_FINAL.png)
 
-Figure 5: FINAL Refactored VBA Challenge Code with three arrays
+Figure 8: FINAL Refactored VBA Challenge Code with three arrays
 ---
 ## Summary
 In general, refactoring code is the practice of cleaning up code. A programmer may write a program with code that is loaded with redundancy (or "dirty") because it is more simple to test and debug or becuase they need to quickly "get er done".  But cleaner, more succinct code is highly valued by anyone who may need to edit it in the future. So it is always a "best practice" to consider refactoring as the cleaner the code, the easier it is to maintain and to add future features to. 
