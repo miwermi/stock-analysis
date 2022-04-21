@@ -50,9 +50,9 @@ Figure 4: Improved timing, 2017 Green Stock Analysis Refactored with one new arr
 
 Figure 5: Refactored VBA Challenge Code with one new array
 
-The code above was a little cleaner/more efficient than our orinal code - as evidenced by the timing differences; in this case the timings returned are 0.78125 for 2018 and .8046875 for 2017. Also viewable is the refactored code. 
-### FINAL Refactoring
-Below is the even more improved three-array timings with the FINAL re-factored code. 
+The code above was a little cleaner/more efficient than our orinal code - as evidenced by the timing differences; in this case the timings returned are 0.78125 for 2018 and .8046875 for 2017. Also viewable is the refactored code (Figure 5). 
+### FINAL Refactoring with 3 Arrays
+Below is the even more improved three-array timings with the FINAL refactored code (Figure 8).
 
 ![FINAL three array timing, 2018 data](resources/VBA_Challenge_2018_FINAL.png)
 
@@ -72,7 +72,7 @@ In general, refactoring code is the practice of cleaning up code. A programmer m
 
 "The act of refactoring – changing tiny pieces of code with no front-end purpose – may seem unimportant when compared to higher priority tasks. But the cumulative effect from such changes is significant and can lead to a better-functioning team and approach to programming."  (BMC blogs,  Stephen Watts &Chrissy Kidd, 2018, https://www.bmc.com/blogs/code-refactoring-explained/)
 
-For our VBA challenge, we have successfully improved our program by adding arrays and simplifyig the amount of work the program had to do. Refactoring has allowed us to have cleaner code with more streamlined functionality, but it has also sped up calculaton timing. By adding one more array, "tickerIndex", we were able to have the program loop less, improving efficiency and saving valuable time. Adding three arrays made even more improvements! The FINAL refactored version of our project has an advantage over our previous versions because ultimately, it can handle more calculations in far less time than it took in our original version.
+For our VBA challenge, we have successfully improved our program by adding arrays and simplifying the amount of work the program had to do. Refactoring has allowed us to have cleaner code with more streamlined functionality, but it has also sped up calculaton timing. By adding one more array, "tickerIndex", we were able to have the program loop less, improving efficiency and saving valuable time. Adding three arrays made even more improvements! The FINAL refactored version of our project has an advantage over our previous versions because ultimately, it can handle more calculations in far less time than it took in our original version.
 
 One thing to note though, while the refactored code in our program is definitely faster, the timings that were returned seem a bit off (as the difference between versions was mere seconds and not minutes and/or hours as the timings seem to indicate). 
 
