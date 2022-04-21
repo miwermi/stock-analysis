@@ -37,16 +37,16 @@ The figures above display the results and timing of our intial program coding. Y
 
 Below are the improved timings with our re-factored code. In this case the timings returned are 0.78125 for 2018 and .8046875 for 2017, along with a view of the refactored code.
 
-![One array timing, 2018 data](resources/VBA_Challenge_2018_one-array.png)
+![One array timing, 2018 data](resources/VBA_Challenge_2018_refactored.png)
 
 Figure 3: Improved timing, 2018 Green Stock Analysis Refactored with one new array
 
-![One array timing, 2017 data](resources/VBA_Challenge_2017_one-array.png)
+![One array timing, 2017 data](resources/VBA_Challenge_2017_refactored.png)
 
 Figure 4: Improved timing, 2017 Green Stock Analysis Refactored with one new array
 
 
-![Refactored VBA code](resources/code_one array.png)
+![Refactored VBA code](resources/code_refactored.png)
 
 Figure 5: Refactored VBA Challenge Code with one new array
 
