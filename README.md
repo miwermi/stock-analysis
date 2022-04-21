@@ -35,7 +35,7 @@ The figures above display the results and timing of our intial program coding. Y
 
 ### Refactored
 
-Below are the improved timings with our re-factored code. In this case the timings returned are 0.78125 for 2018 and .8046875 for 2017, along with a view of the refactored code.
+Below are the improved timings with our refactored code. In this case the timings returned are 0.78125 for 2018 and 0.8046875 for 2017 - a big improvement! Under the two years is a view of the refactored code used to run these timings.
 
 ![One array timing, 2018 data](resources/VBA_Challenge_2018_refactor1.png)
 
@@ -50,9 +50,9 @@ Figure 4: Improved timing, 2017 Green Stock Analysis Refactored with one new arr
 
 Figure 5: Refactored VBA Challenge Code with one new array
 
-The code above was a little cleaner/more efficient than our orinal code - as evidenced by the timing differences; in this case the timings returned are 0.78125 for 2018 and .8046875 for 2017. Also viewable is the refactored code (Figure 5). 
+
 ### FINAL Refactoring with 3 Arrays
-Below is the even more improved three-array timings with the FINAL refactored code (Figure 8).
+The program can be further improved by coding three arrays for the starting, ending and total volume values. Below is the FINAL even more improved three-array timings (Figures 6 & 7) and the FINAL refactored code (Figure 8). In this FINAL version the timings returned are 0.07196045 for 2018 and 0.1159668 for 2017.
 
 ![FINAL three array timing, 2018 data](resources/VBA_Challenge_2018_FINAL.png)
 
