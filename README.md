@@ -4,7 +4,7 @@
 
 ## Overview of Project
 
-Intially this project was about client Steve, who was evaluating green energy stocks for his parents. The initial analysis of the DQ stock they had chosen indicated that it had lost value and wasn't the best investment. Following that discovery, Steve asked for help to design a program that could look at multiple stocks simultaneously and compare changes in their stock values. 
+Initially this project was about client Steve, who was evaluating green energy stocks for his parents. The initial analysis of the DQ stock they had chosen indicated that it had lost value and wasn't the best investment. Following that discovery, Steve asked for help to design a program that could look at multiple stocks simultaneously and compare changes in their stock values. 
 
 <!--![Steve's Stock](resources/SteveStockAnalysis.png)
 
@@ -12,9 +12,9 @@ Pictured: Steve's Stock Analysis -->
 
 ### Purpose
 
-When writing a program to compare multiple stocks and their total value increases and decreases, and thinking of how the program might be need to "scale" up even further in the future, a few things seemed relevant: visual clarity, variety and timing. Adding buttons and visual formatting to the program made it more easily understood at a glance, and the program was much improved with the added ability to access different spreadsheets from multiple stock years. The final refactoring of the program involves invesitgating timing.
+When writing a program to compare multiple stocks and their total value increases and decreases, and thinking of how the program might be need to "scale" up even further in the future, a few things seemed relevant: visual clarity, variety and timing. Adding buttons and visual formatting to the program made it more easily understood at a glance, and the program was much improved with the added ability to access different spreadsheets from multiple stock years. The final refactoring of the program involves investigating timing.
 
-As the data comparison demand increases, saving time on the computation becomes useful - and interesting. For this final re-write of the program, we are going to see if we can test the speed of two different code methods used to find  and total the begining and ending price comparisons to see which is more efficient. This type of adjustment to our original code is referred to as "refactoring". Our findings and the value of refactoring this VBA code will be discussed further in the Results section below.
+As the data comparison demand increases, saving time on the computation becomes useful - and interesting. For this final re-write of the program, we are going to see if we can test the speed of two different code methods used to find  and total the beginning and ending price comparisons to see which is more efficient. This type of adjustment to our original code is referred to as "refactoring". Our findings and the value of refactoring this VBA code will be discussed further in the Results section below.
 
 <!-- For more on refactoring visit: https://www.bmc.com/blogs/code-refactoring-explained/ -->
 ---
@@ -31,7 +31,7 @@ Figure 1: Initial timing, 2018 Green Stock Analysis
 
 Figure 2: Initial timing, 2017 Green Stock Analysis 
 
-The figures above display the results and timing of my intial program coding. You can see that for the 2018 data, the timing for calculating the results is indicated as 66915.74 seconds and for the 2017 run, the timing is 66889.4 seconds.
+The figures above display the results and timing of my initial program coding. You can see that for the 2018 data, the timing for calculating the results is indicated as 66915.74 seconds and for the 2017 run, the timing is 66889.4 seconds.
 
 ### Refactored
 
